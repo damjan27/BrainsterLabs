@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <!-- Latest compiled and minified BOOTSTRAP CSS -->
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+    <!-- Local CSS -->
+    <link rel='stylesheet' type='text/css' href='style.css'>
+    <!-- Font-awesome 4.7 cdn -->
+    <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+
+</head>
+
+<body>
+    <!-- NAVIGATION BAR LAPTOP -->
+    <nav class="nav flex1">
+
+        <a href="index.html"><img src="default.png" alt="logo" class="img img-responsive logo"></a>
+
+        <a href="https://www.brainster.io/marketpreneurs">Академија за маркетинг</a>
+        <a href="http://codepreneurs.co/">Академија за програмирање</a>
+        <a href="services.html">Академија за data-science</a>
+        <a href="​ https://www.brainster.io/design">Академија за дизајн</a>
+        <a href="form.html" class="btn btn-danger">Вработи наш студент</a>
+
+    </nav>
+
+
+
+    <!-- ----------------------Navigation Tablet & Mobile------------------ -->
+    <div class="container-fluid padding">
+        <div class="navigation">
+
+            <a class="navbar-brand" href="index.html"><img src="default.png" alt="logo"
+                    class="img img-responsive logo"></a>
+
+            <div onclick="showSidebar()" class="toggle-nav">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+
+            <div class="sidebar">
+                <a onclick="closeSidebar()"><i class="fa fa-times"></i></a>
+                <a href="https://www.brainster.io/marketpreneurs">Академија за маркетинг</a>
+                <a href="http://codepreneurs.co">Академија за програмирање</a>
+                <a href="#">Академија за дата сајенс</a>
+                <a href="https://www.brainster.io/design">Академија за дизајн</a>
+                <span class="btn btn-danger sidebtn"><a href="form.html">Вработи наш студент</a></span>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- ------------------------------FORM---------------------------------------- -->
+
+
+
+    <div class="container-fluid bg3">
+        <div class="row">
+            <p class="h1 text-center margin ">Вработи студенти</p>
+        </div>
+
+        <form>
+            <div class="row margin">
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12">
+                            <div class="form-group">
+                                <label for="name">Име и презиме:</label>
+                                <input type="name" class="form-control" id="name" placeholder="Вашето име и презиме">
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-12">
+                            <div class="form-group">
+                                <label for="nameco">Име на компанијата:</label>
+                                <input type="nameco" class="form-control" id="nameco"
+                                    placeholder="Име на вашата компанија">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12">
+                            <div class="form-group">
+                                <label for="email">Контакт имејл:</label>
+                                <input type="email" class="form-control" id="email"
+                                    placeholder="Контакт имејл на вашата компанија">
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-12">
+                            <div class="form-group">
+                                <label for="phone">Контакт телефон:</label>
+                                <input type="number" class="form-control" id="phone"
+                                    placeholder="Контакт телефон на вашата компанија">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12">
+                            <div class="form-group">
+                                <label for="students">Тип на студенти</label>
+                                <div class="custom-select" id="students">
+                                    <select>
+                                        <option value="0">Изберете тип на студент</option>
+                                        <option value="1">Студенти од маркетинг</option>
+                                        <option value="2">Студенти од програмирање</option>
+                                        <option value="3">Студенти од data-science</option>
+                                        <option value="4">Студенти од дизајн</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-12">
+                            <button type="submit" class="btn btn-danger btn-block send">Испрати</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+
+        <!-- ---------------------------FOOTER------------------------------ -->
+
+        <div class="row bg4">
+            <div class="col-md-12 text-center h5">
+                <p>Изработено со <i class="fa fa-heart hrt" aria-hidden="true"></i> од студентите на Brainster</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <script src="main.js"></script>
+    <!-- jQuery library -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js'></script>
+    <!-- Latest compiled JavaScript -->
+    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
+</body>
+
+</html>

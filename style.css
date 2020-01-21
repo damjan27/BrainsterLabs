@@ -1,0 +1,356 @@
+.logo {
+    height: 50px;
+    width: 50px;
+}
+
+.nav {
+    background-color:	#FCD134;
+    color: #302E39;
+    height: 10vh;
+}
+
+.flex1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg1 {
+    background-image: url(bg1.jpg);
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.over {
+    background-color: rgba(0, 0, 0, 0.20);
+    height: 50vh;
+}
+
+.white {
+    color: white;
+}
+
+
+
+
+.but {
+    background-color: #302E39;
+    color: white;
+    border: none;
+    border-radius: 0; 
+    text-align: left;
+     
+}
+
+.but:active {
+    background-color: red;
+}
+
+.flex1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.pm {
+    margin: 0;
+    padding: 0;
+}
+
+.check {
+   color: #302E39; 
+}
+
+.bg2 {
+    background-color: #FCD134;
+}
+
+.bg3 {
+    background-color: #FCD134;
+}
+
+
+
+.card {
+    background-color: white;
+    border-radius: 14px;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+    transition: transform 0.5s;
+    box-shadow: -1px 5px 11px -4px rgba(0,0,0,0.75);
+    
+}
+
+.card:hover {
+    transform: translate(0px, -15px);
+  }
+
+.imag {
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    margin-bottom: 10px;
+}
+
+.title {
+    background-color: #FCD134;
+    padding: 2px;
+    margin-left: 10px;
+   
+    
+}
+
+.projects {
+    margin-bottom: 100px;
+}
+
+.projectName{
+    margin-left: 10px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.description {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 12px;
+}
+.date {
+    margin-left: 10px;
+    font-size: 10px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.butt {
+    background-color: red;
+    color: white;
+    margin-right: 10px;
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+.projects-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  
+  .projects-nav button {
+    background-color: #302e38;
+    padding: 20px 60px 20px 20px;
+    width: 100%;
+    border-right: 1px solid #555555;
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  .projects-nav button.active {
+    background-color: #ec3b3c;
+    color: #302e38;
+  }
+  
+  .projects-nav button i {
+    position: absolute;
+    right: 20px;
+    font-size: 36px;
+    display: none;
+  }
+  
+  .projects-nav button:hover {
+    cursor: pointer;
+    color: gray;
+  }
+  
+  .projects-nav button.active i {
+    display: block;
+  }
+
+  .padding {
+      padding: 0px;
+  }
+
+  .navigation {
+    background-color: #FCD134;
+    height: 12vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .toggle-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40px;
+    align-items: flex-end;
+    margin-right: 20px;
+  }
+  
+  .toggle-nav:hover {
+    cursor: pointer;
+  }
+  
+  .toggle-nav div {
+    width: 100%;
+    height: 6px;
+    border-radius: 3px;
+    background-color: #555555;
+    margin: 3px;
+  }
+  
+  .toggle-nav div:nth-child(2) {
+    width: 75%;
+  }
+  
+  .toggle-nav div:nth-child(3) {
+    width: 50%;
+  }
+  
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+  
+    z-index: 100;
+    height: 100%;
+  
+    background-color: #302e38;
+  
+    display: flex;
+    flex-direction: column;
+  
+    width: 0%;
+    overflow-x: hidden;
+  
+    transition: width 0.35s ease-in-out;
+  }
+  
+  .sidebar a {
+    color: white;
+    padding: 20px;
+    font-size: 1.3em;
+    text-decoration: none;
+    transition: 0.5s;
+    white-space: nowrap;
+  }
+  
+  .sidebar a:hover {
+    color: white;
+  }
+  .sidebar a i {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+  }
+
+  nav a {
+      color: black;
+  }
+
+  .sidebtn {
+      width: 300px;
+      margin-left: 15px;
+  }
+
+  .margin {
+    margin-top: 70px;
+  }
+
+  .custom-select {
+    position: relative;
+    padding-bottom: 10px;
+  }
+  .custom-select select {
+    display: none;
+  }
+  .select-selected {
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+  }
+  .select-selected:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #fff transparent transparent transparent;
+  }
+  .select-selected.select-arrow-active:after {
+    border-color: transparent transparent #fff transparent;
+    top: 7px;
+  }
+  .select-items div,.select-selected {
+    color: #000000;
+    padding: 6px 16px;
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  .select-items {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+  }
+  .select-hide {
+    display: none;
+  }
+  .select-items div:hover, .same-as-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .send {
+    margin-top:24px;
+    background-color: red;
+  }
+
+  ::placeholder {
+    font-style: italic;
+  }
+
+  .bg4 {
+    margin-top: 150px;
+    background-color: #555555;
+    color: white;
+  }
+  .bg5 {
+    background-color: #555555;
+    color: white;
+  }
+
+  .hrt {
+    color: red;
+  }
+
+
+
+
+
+  @media only screen and (min-width: 992px) {
+      .navigation {
+          display: none;
+      }
+      
+  }
+  @media only screen and (max-width: 991px) {
+      .nav {
+          display: none;
+      }
+  }
+  
